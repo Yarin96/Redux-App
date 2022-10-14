@@ -9,7 +9,7 @@
 - Redux is another possibility to handle wide app changes and can operate as a replacement/addition to React Context API.
 - It might be a good idea to use Redux over React Context especially in bigger applications where the performance and state management might become more complex.
 
-## Some of the concepts covered
+## Some of the concepts I covered
 
 - Creating a store data with Redux toolkit library. Specifically with the configureStore() method to merge the different reducers into one large reducer, and useSelector to obtain fractions of the desired data from the store data.  
 - Using slices of general data sections and attaching reducers / actions to them. Dispatching the actions with useDispatch from the react-redux library, which returns a method to dispatch in order to activate a specific action.
